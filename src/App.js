@@ -7,6 +7,8 @@ class App extends Component {
     return (
       <div>
         <h1>Register to start recieving funds.</h1>
+        <input type="nmae" id="name" />
+        <input type="email" id="email" />
       </div>
     );
   }
