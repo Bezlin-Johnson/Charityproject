@@ -6,12 +6,29 @@ class App extends Component {
   render() {
     return (
       <div class="wrapper">
-        <h1>Register to start recieving funds.</h1>
-        <input type="nmae" id="name" />
+        <h1 class="heading">Register to start recieving funds.</h1>
+        <input
+          placeholder="Your Name."
+          class="inputboxes"
+          type="nmae"
+          id="name"
+        />
         <br />
-        <input type="email" id="email" />
+        <input
+          placeholder="Your Email Address."
+          class="inputboxes"
+          type="email"
+          id="email"
+        />
         <br />
-        <input type="tel" id="tel" />
+        <input
+          placeholder="Your Phone Number."
+          class="inputboxes"
+          type="tel"
+          id="tel"
+        />
+        <br />
+        <button class="button">Join</button>
       </div>
     );
   }
